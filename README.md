@@ -36,7 +36,7 @@ Dataset meliputi data mahasiswa dengan variabel-variabel berikut:
 
 
 ## Struktur Proyek
-    ```bash
+    
     ├── data/
     │   ├── raw_data.csv         # Dataset mentah sebelum preprocessing
     │   ├── processed_data.csv   # Dataset setelah preprocessing
