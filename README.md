@@ -23,6 +23,10 @@ Dataset meliputi data mahasiswa dengan variabel-variabel berikut:
 - **Sosial Experience:** Partisipasi dalam kegiatan sosial.
 - **Aktivitas Penggunaan Elektronik:** Lama waktu penggunaan perangkat elektronik untuk belajar dan hiburan.
 
+## Tools yang Digunakan
+- **Jupyter Notebook**
+- **Visual Studio Code**
+
 ## Teknologi yang Digunakan
 - **Python 3.8+** Bahasa pemrograman utama.
 - **Library:** 
@@ -30,9 +34,6 @@ Dataset meliputi data mahasiswa dengan variabel-variabel berikut:
   - Scikit-learn (machine learning)
   - Matplotlib dan Seaborn (visualisasi data)
 
-## Tools yang Digunakan
-- **Jupyter Notebook**
-- **Visual Studio Code**
 
   ## Struktur Proyek
   ```bash
