@@ -77,3 +77,10 @@ Dataset meliputi data mahasiswa dengan variabel-variabel berikut:
    ```bash
    python src/evaluate.py
 8. **Hasil evaluasi** akan disimpan dalam direktori results/ dengan nama file model_performance.csv
+
+## Kontributor
+- Mutiara Enjelina (Ketua)
+- Calvin Josep Silaen
+- Emalia Putri Lestari Telaumbanua
+- Indah Silitonga
+- Samuel Saut Royzeki Aritonang
