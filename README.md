@@ -35,21 +35,21 @@ Dataset meliputi data mahasiswa dengan variabel-variabel berikut:
   - Matplotlib dan Seaborn (visualisasi data)
 
 
-  ## Struktur Proyek
-  ```bash
-  ├── data/
-  │   ├── raw_data.csv         # Dataset mentah sebelum preprocessing
-  │   ├── processed_data.csv   # Dataset setelah preprocessing
-  ├── src/
-  │   ├── preprocess.py        # Script untuk preprocessing data
-  │   ├── train_mlr.py         # Script untuk melatih model Multiple Linear Regression
-  │   ├── train_naive_bayes.py # Script untuk melatih model Naive Bayes
-  │   ├── evaluate.py          # Script untuk evaluasi model
-  ├── results/
-  │   ├── model_performance.csv # Hasil evaluasi model
-  │   ├── insights.pdf          # Laporan insight dari analisis
-  ├── requirements.txt          # Daftar dependensi proyek
-  └── README.md                 # Dokumentasi proyek
+## Struktur Proyek
+    ```bash
+    ├── data/
+    │   ├── raw_data.csv         # Dataset mentah sebelum preprocessing
+    │   ├── processed_data.csv   # Dataset setelah preprocessing
+    ├── src/
+    │   ├── preprocess.py        # Script untuk preprocessing data
+    │   ├── train_mlr.py         # Script untuk melatih model Multiple Linear Regression
+    │   ├── train_naive_bayes.py # Script untuk melatih model Naive Bayes
+    │   ├── evaluate.py          # Script untuk evaluasi model
+    ├── results/
+    │   ├── model_performance.csv # Hasil evaluasi model
+    │   ├── insights.pdf          # Laporan insight dari analisis
+    ├── requirements.txt          # Daftar dependensi proyek
+    └── README.md                 # Dokumentasi proyek
 
 ## Cara Menjalankan Proyek
 
