@@ -24,15 +24,31 @@ Dataset meliputi data mahasiswa dengan variabel-variabel berikut:
 - **Aktivitas Penggunaan Elektronik:** Lama waktu penggunaan perangkat elektronik untuk belajar dan hiburan.
 
 ## Teknologi yang Digunakan
-- **Python:** Bahasa pemrograman utama.
+- **Python 3.8+** Bahasa pemrograman utama.
 - **Library:** 
   - Pandas dan NumPy (manipulasi data)
   - Scikit-learn (machine learning)
   - Matplotlib dan Seaborn (visualisasi data)
 
-## Struktur Proyek
-├── data/ │ ├── raw_data.csv # Dataset mentah sebelum preprocessing │ ├── processed_data.csv # Dataset setelah preprocessing ├── src/ │ ├── preprocess.py # Script untuk preprocessing data │ ├── train_mlr.py # Script untuk melatih model Multiple Linear Regression │ ├── train_naive_bayes.py # Script untuk melatih model Naive Bayes │ ├── evaluate.py # Script untuk evaluasi model ├── results/ │ ├── model_performance.csv # Hasil evaluasi model │ ├── insights.pdf # Laporan insight dari analisis ├── requirements.txt # Daftar dependensi proyek └── README.md # Dokumentasi proyek
+## Tools yang Digunakan
+- **Jupyter Notebook**
+- **Visual Studio Code**
 
+  ## Struktur Proyek
+  ```bash
+  ├── data/
+  │   ├── raw_data.csv         # Dataset mentah sebelum preprocessing
+  │   ├── processed_data.csv   # Dataset setelah preprocessing
+  ├── src/
+  │   ├── preprocess.py        # Script untuk preprocessing data
+  │   ├── train_mlr.py         # Script untuk melatih model Multiple Linear Regression
+  │   ├── train_naive_bayes.py # Script untuk melatih model Naive Bayes
+  │   ├── evaluate.py          # Script untuk evaluasi model
+  ├── results/
+  │   ├── model_performance.csv # Hasil evaluasi model
+  │   ├── insights.pdf          # Laporan insight dari analisis
+  ├── requirements.txt          # Daftar dependensi proyek
+  └── README.md                 # Dokumentasi proyek
 
 ## Cara Menjalankan Proyek
 
@@ -50,14 +66,13 @@ Dataset meliputi data mahasiswa dengan variabel-variabel berikut:
    ```bash
    python src/preprocess.py
 5. **Melatih model**
-       - Multiple Linear Regression (MLR)
+   - Multiple Linear Regression (MLR)
        ```bash
        python src/train_mlr.py
     - Naive Bayes
-     ```bash
-     python src/train_naive_bayes.py
-6. **Evaluasi model**
+       ```bash
+       python src/train_naive_bayes.py
+7. **Evaluasi model**
    ```bash
    python src/evaluate.py
-7. **Hasil evaluasi**
-   Hasil evaluasi akan disimpan dalam direktori results/ dengan nama file model_performance.csv
+8. **Hasil evaluasi** akan disimpan dalam direktori results/ dengan nama file model_performance.csv
