@@ -67,12 +67,12 @@ Dataset meliputi data mahasiswa dengan variabel-variabel berikut:
    ```bash
    python src/preprocess.py
 5. **Melatih model**
-   - Multiple Linear Regression (MLR)
+   - Random Forest
        ```bash
-       python src/train_mlr.py
+       python src/random_forest.py
     - Naive Bayes
        ```bash
-       python src/train_naive_bayes.py
+       python src/svm.py
 7. **Evaluasi model**
    ```bash
    python src/evaluate.py
