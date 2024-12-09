@@ -8,8 +8,8 @@ Proyek ini bertujuan untuk menganalisis pengaruh beberapa faktor terhadap kemamp
 - Aktivitas Penggunaan Elektronik
 
 Hasil dari analisis ini digunakan untuk memprediksi programming skill mahasiswa berdasarkan nilai rata-rata dari mata kuliah yang relevan, menggunakan dua algoritma:
-1. **Multiple Linear Regression (MLR)**
-2. **Naive Bayes**
+1. **Random Forest**
+2. **SVM**
 
 ## Tujuan
 - **Analisis Faktor:** Menentukan faktor-faktor yang paling berpengaruh terhadap programming skill.
