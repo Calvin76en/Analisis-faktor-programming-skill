@@ -33,21 +33,23 @@ Dataset meliputi data mahasiswa dengan variabel-variabel berikut:
   - Pandas dan NumPy (manipulasi data)
   - Scikit-learn (machine learning)
   - Matplotlib dan Seaborn (visualisasi data)
+  - Joblib (menyimpan dan memuat model yang telah dilatih)
 
 
 ## Struktur Proyek
     
     ├── data/
     │   ├── raw_data.csv         # Dataset mentah sebelum preprocessing
-    │   ├── processed_data.csv   # Dataset setelah preprocessing
+    │   ├── preprocessing1.csv   # Dataset setelah preprocessing
     ├── src/
-    │   ├── preprocess.py        # Script untuk preprocessing data
-    │   ├── train_mlr.py         # Script untuk melatih model Multiple Linear Regression
-    │   ├── train_naive_bayes.py # Script untuk melatih model Naive Bayes
-    │   ├── evaluate.py          # Script untuk evaluasi model
+    │   ├── Pre-Processing.ipynb        # Script untuk preprocessing data
+    │   ├── Random Forest.ipynb         # Script untuk melatih model Random Forest
+    │   ├── SVM.ipynb # Script untuk melatih model SVM
     ├── results/
-    │   ├── model_performance.csv # Hasil evaluasi model
-    │   ├── insights.pdf          # Laporan insight dari analisis
+    │   ├── df_scaled.pkl 
+    │   ├── RandomForest.pkl      # Model Random Forest
+    │   ├── scaler.pkl            # Model Scaler
+    │   ├── SVM.pkl               # Model SVM
     ├── requirements.txt          # Daftar dependensi proyek
     └── README.md                 # Dokumentasi proyek
 
