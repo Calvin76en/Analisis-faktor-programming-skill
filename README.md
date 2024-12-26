@@ -58,7 +58,7 @@ Dataset meliputi data mahasiswa dengan variabel-variabel berikut:
 1. **Clone repositori**  
    Salin repositori proyek ini ke komputer Anda menggunakan perintah berikut:
    ```bash
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/Calvin76en/Analisis-faktor-programming-skill.git
 2. **Masuk ke direktori proyek**
    ```bash
    cd your-repo
