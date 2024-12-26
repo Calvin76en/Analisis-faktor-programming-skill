@@ -67,18 +67,14 @@ Dataset meliputi data mahasiswa dengan variabel-variabel berikut:
    pip install -r requirements.txt
 4. **Preprocessing data**
    ```bash
-   python src/preprocess.py
+   python src/Pre-Processing.ipynb
 5. **Melatih model**
    - Random Forest
        ```bash
-       python src/random_forest.py
+       python src/Random Forest.ipynb
     - Naive Bayes
        ```bash
-       python src/svm.py
-7. **Evaluasi model**
-   ```bash
-   python src/evaluate.py
-8. **Hasil evaluasi** akan disimpan dalam direktori results/ dengan nama file model_performance.csv
+       python src/SVM.ipynb
 
 ## Kontributor
 - Mutiara Enjelina (Ketua)
